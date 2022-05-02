@@ -1,7 +1,13 @@
+import 'package:flutter/cupertino.dart';
+
 class ProductModel{
-  name 
+  String? name;
+  num? stock;
+  String? description;
+
   ProductModel({
     @required this.name,
-
-  })
+    @required this.stock,
+    this.description
+  });
 }
